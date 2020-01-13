@@ -21,7 +21,7 @@ WebElement addr;
 
 public ContactPage()
 {
-    PageFactory.initElements(driver,this);
+   super(driver);
 }
 
 public void createContact()
