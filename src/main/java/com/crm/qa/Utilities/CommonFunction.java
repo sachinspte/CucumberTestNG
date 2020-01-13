@@ -1,12 +1,14 @@
 package com.crm.qa.Utilities;
 
-public class CommonFunction
+import com.crm.qa.base.Constant;
+
+public class CommonFunction implements Constant
 {
    public static void  sleepMethod()
    {
        try
        {
-        Thread.sleep(Constant.SLEEP_WAIT);
+        Thread.sleep(SLEEP_WAIT);
        }catch (InterruptedException e)
        {
         e.printStackTrace();
