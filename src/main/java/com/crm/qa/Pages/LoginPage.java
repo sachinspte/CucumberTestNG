@@ -18,7 +18,7 @@ WebElement loginButton;
 
 public LoginPage()
 {
-    PageFactory.initElements(driver,this);
+    super(driver);
 }
 
 public HomePage login(String un,String pwd)
@@ -26,6 +26,6 @@ public HomePage login(String un,String pwd)
 userName.sendKeys(un);
 passWord.sendKeys(pwd);
 loginButton.click();
-return new HomePage();
+return new HomePage(driver);
 }
 }
