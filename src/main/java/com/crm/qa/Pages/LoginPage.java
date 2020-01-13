@@ -1,6 +1,6 @@
 package com.crm.qa.Pages;
 
-import com.crm.qa.Base.ApplicationBase;
+import com.crm.qa.base.ApplicationBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

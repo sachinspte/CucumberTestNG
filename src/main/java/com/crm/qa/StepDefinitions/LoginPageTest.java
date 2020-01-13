@@ -1,6 +1,6 @@
 package com.crm.qa.StepDefinitions;
 
-import com.crm.qa.Base.ApplicationBase;
+import com.crm.qa.base.ApplicationBase;
 import com.crm.qa.Pages.HomePage;
 import com.crm.qa.Pages.LoginPage;
 import com.crm.qa.Utilities.CommonFunction;

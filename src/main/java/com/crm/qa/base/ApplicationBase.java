@@ -1,4 +1,4 @@
-package com.crm.qa.Base;
+package com.crm.qa.base;
 
 import com.crm.qa.Utilities.Constant;
 import org.openqa.selenium.WebDriver;
