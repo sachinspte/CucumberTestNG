@@ -1,19 +1,22 @@
 package com.crm.qa.base;
 
-import com.crm.qa.Utilities.Constant;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.support.PageFactory;
+import java.io.File;
 import java.io.FileInputStream;
+import java.util.concurrent.TimeUnit;
 import java.io.FileNotFoundException;
 import java.util.Properties;
 
-public class ApplicationBase
+public class ApplicationBase implements Constant
 {
    public static String path;
    public static Properties prop;
    public static WebDriver driver;
+   public static Logger log;
 
    static
    {
@@ -22,17 +25,28 @@ public class ApplicationBase
 
    public ApplicationBase()
    {
+       log=Logger.getLogger(this.getClass().getName());
+       log.debug(this.getClass().getName());
       try {
-         prop = new Properties();
-         prop.load(new FileInputStream(path+ Constant.PROP_PATH));
-         prop.load(new FileInputStream(path+Constant.APPLICATIONLOCATORS_PROP_PATH));
-      }catch (FileNotFoundException e)
-      {
-         e.printStackTrace();
-      }catch (Exception e)
-      {
-         e.printStackTrace();
-      }
+          prop = new Properties();
+          File folder=new File(path+PROP_PATH);
+          String[] files=folder.list();
+          for(String file : files)
+          {
+              prop.load(new FileInputStream(path+PROP_PATH+file));
+          }
+          }catch (FileNotFoundException e)
+          {
+            e.printStackTrace();
+          }catch (Exception e)
+          {
+            e.printStackTrace();
+          }
+   }
+
+   public ApplicationBase(WebDriver driver)
+   {
+       PageFactory.initElements(driver,this);
    }
 
    public static void initialization()
