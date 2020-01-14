@@ -38,8 +38,8 @@ public class LoginPageTest extends ApplicationBase
     @Then("^User enters username and password$")
     public void user_enters_username_and_password()
     {
-     loginPage=new LoginPage();
-     loginPage.login(prop.getProperty("userName"),prop.getProperty("passWord"));
+     loginPage=new LoginPage(driver);
+     homePage=loginPage.login(prop.getProperty("userName"),prop.getProperty("passWord"));
     }
 
     @Then("^User is on Home page$")
@@ -49,9 +49,9 @@ public class LoginPageTest extends ApplicationBase
         Assert.assertEquals(driver.getTitle(),"Cogmento CRM");
     }
 
-    @Then("^close the brouser$")
+   /* @Then("^close the brouser$")
     public void close_the_brouser()
     {
      driver.close();
-    }
+    }*/
 }
