@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3bb9a47-32e0-4c55-bd56-b37993e42158" name="Default Changelist" comment="">
+    <list default="true" id="f3bb9a47-32e0-4c55-bd56-b37993e42158" name="Default Changelist" comment="Added Parameterised constructor and Load multiple properties files code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/Base/ApplicationBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/base/ApplicationBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/Pages/ContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/Pages/ContactPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/StepDefinitions/ContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/StepDefinitions/ContactPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/StepDefinitions/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/StepDefinitions/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/junit_xml/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/junit_xml/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/crm/qa/Features/contact.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crm/qa/Features/contact.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/lo4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lo4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/Base/ApplicationBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/Base/ApplicationBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/Pages/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/Pages/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/Pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/Pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/Pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/Pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/StepDefinitions/ContactPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/StepDefinitions/ContactPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/StepDefinitions/LoginPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/StepDefinitions/LoginPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/StepDefinitions/tableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/StepDefinitions/tableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/Utilities/CommonFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/crm/qa/Utilities/CommonFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/crm/qa/Utilities/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +56,7 @@
       <recent name="C:\Users\intel\IdeaProjects\CucumberWithTestNG\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.tableTest">
+  <component name="RunManager" selected="TestNG.C:/Users/intel/IdeaProjects/CucumberWithTestNG/testng.xml">
     <configuration name="tableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.crm.qa.StepDefinitions.tableTest" />
       <module name="CucumberWithTestNG" />
@@ -105,8 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.tableTest" />
         <item itemvalue="TestNG.C:/Users/intel/IdeaProjects/CucumberWithTestNG/testng.xml" />
+        <item itemvalue="Application.tableTest" />
         <item itemvalue="JUnit.TestRunnerFile" />
         <item itemvalue="TestNG.TestRunnerFile" />
       </list>
@@ -142,12 +151,79 @@
       <option name="project" value="LOCAL" />
       <updated>1578935560495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added lo4j dependancy">
+      <created>1578937378100</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578937378100</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Parameterised constructor and Load multiple properties files code">
+      <created>1578938653104</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578938653104</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Parameterised constructor and Load multiple properties files code">
+      <created>1578938794755</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578938794755</updated>
+    </task>
+    <task id="LOCAL-00005" summary="interface implements">
+      <created>1578939957118</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578939957118</updated>
+    </task>
+    <task id="LOCAL-00006" summary="constructor added">
+      <created>1578940452052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1578940452052</updated>
+    </task>
+    <task id="LOCAL-00007" summary="constructor added">
+      <created>1578940591398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1578940591398</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Adding log4j properties file">
+      <created>1579025891768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1579025891769</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added interface" />
+    <MESSAGE value="added lo4j dependancy" />
+    <MESSAGE value="Added Parameterised constructor and Load multiple properties files code" />
+    <MESSAGE value="interface implements" />
+    <MESSAGE value="constructor added" />
+    <MESSAGE value="Adding log4j properties file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding log4j properties file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="26" key="#Project_Structure" timestamp="1578752891968">
@@ -158,30 +234,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1578768573448" />
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578771864474">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578938037093">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578771864474" />
-    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1578935556635">
+    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1578938037093" />
+    <state x="307" y="0" key="CommitChangelistDialog2" timestamp="1579026178048">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578935556635" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1578850519527">
+    <state x="307" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579026178048" />
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom" timestamp="1578941209035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578850519527" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1578850519527">
+    <state width="1323" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578941209035" />
+    <state width="1323" height="212" key="GridCell.Tab.0.center" timestamp="1578941209035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578850519527" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1578850519527">
+    <state width="1323" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578941209035" />
+    <state width="1323" height="212" key="GridCell.Tab.0.left" timestamp="1578941209035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578850519527" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1578850519527">
+    <state width="1323" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578941209035" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right" timestamp="1578941209035">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578850519527" />
+    <state width="1323" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578941209035" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1578850519527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -206,9 +282,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1578744736384" />
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1578935066892">
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1579026118641">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1578935066892" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1579026118641" />
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog" timestamp="1579025198062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579025198062" />
+    <state x="453" y="168" key="git4idea.merge.GitMergeDialog" timestamp="1578939390608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="453" y="168" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1578939390608" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578936974079">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578936974079" />
   </component>
 </project>

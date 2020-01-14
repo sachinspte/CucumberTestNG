@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="63.987603">
-<testcase classname="Contact Page Details" name="Adding contact page details" time="63.987603">
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="119.745661">
+<testcase classname="Contact Page Details" name="Adding contact page details" time="78.131256">
 <system-out><![CDATA[Given user is on home page..................................................passed
 When user click on conact page..............................................passed
 Then user click on New button and enters users details......................passed
 Then user click on save button..............................................passed
 Then verify Success message.................................................passed
+Then close the brouser......................................................passed
 ]]></system-out>
+</testcase>
+<testcase classname="Contact Page Details" name="Deleting contact page details" time="41.614405">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given user is on home page..................................................passed
+When user click on conact page..............................................passed
+When Select the user that is to be deleted..................................undefined
+Then Click on Delete Item...................................................undefined
+Then Validate the delete message and contact page...........................undefined
+Then close the brouser......................................................skipped
+]]></failure>
 </testcase>
 </testsuite>
