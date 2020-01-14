@@ -1,6 +1,7 @@
 package com.crm.qa.Pages;
 
 import com.crm.qa.base.ApplicationBase;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -19,7 +20,7 @@ WebElement desc;
 @FindBy(name="address")
 WebElement addr;
 
-public ContactPage()
+public ContactPage(WebDriver driver)
 {
    super(driver);
 }
