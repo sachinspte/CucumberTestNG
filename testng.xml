@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="BDD Test Suite" verbose="1" parallel="tests"
        thread-count="1" configfailurepolicy="continue">
+    <listeners>
+        <listener class-name="com.crm.qa.base.TestAllureListener" />
+    </listeners>
     <test name="FREE CRM Test" annotations="JDK"
           preserve-order="true">
         <classes>
